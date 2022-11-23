@@ -9,7 +9,9 @@ Extract specific cells from multiple Excel workbooks and make a list
 
 在“应用的步骤”栏中“源”点击右键-“插入步骤后”，添加以下一步
 
-= List.Transform(源,each [Column1]{3})
+= List.Transform(源,each [Column1]{2}&[Column1]{4}&[Column1]{5})
+
+
 
 
 Create multiple excel files in batch
